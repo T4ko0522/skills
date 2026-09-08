@@ -1,0 +1,90 @@
+{
+  "nix-setup": {
+    "repository": "https://github.com/mizchi/skills",
+    "revision": "5aaf2d126a04a8b079fd5184eb1860f232afffd3",
+    "path": "tooling/nix-setup",
+    "licenseFiles": []
+  },
+  "conventional-changelog": {
+    "repository": "https://github.com/mizchi/skills",
+    "revision": "5aaf2d126a04a8b079fd5184eb1860f232afffd3",
+    "path": "tooling/conventional-changelog",
+    "licenseFiles": []
+  },
+  "gh-fix-ci": {
+    "repository": "https://github.com/mizchi/skills",
+    "revision": "5aaf2d126a04a8b079fd5184eb1860f232afffd3",
+    "path": "devops/gh-fix-ci",
+    "licenseFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  "deploy": {
+    "repository": "https://github.com/mizchi/skills",
+    "revision": "5aaf2d126a04a8b079fd5184eb1860f232afffd3",
+    "path": "cloudflare/deploy",
+    "licenseFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  "frontend-design": {
+    "repository": "https://github.com/anthropics/skills",
+    "revision": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+    "path": "skills/frontend-design",
+    "licenseFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  "playwright-cli": {
+    "repository": "https://github.com/microsoft/playwright-cli",
+    "revision": "655530f6d0dc71a0d6bf46ae165877d3c7311099",
+    "path": "skills/playwright-cli",
+    "licenseFiles": [
+      "LICENSE"
+    ]
+  },
+  "vitest-5": {
+    "repository": "https://github.com/antfu/skills",
+    "revision": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
+    "path": "skills/vitest",
+    "licenseFiles": [
+      "LICENSE.md"
+    ]
+  },
+  "tdd": {
+    "repository": "https://github.com/ryoppippi/dotfiles",
+    "revision": "f5e4d68b475a35edba1583a88cecef20cd0cb8ab",
+    "path": "agents/skills/tdd",
+    "licenseFiles": [
+      "LICENSE"
+    ]
+  },
+  "vitest-testing": {
+    "repository": "https://github.com/ryoppippi/dotfiles",
+    "revision": "f5e4d68b475a35edba1583a88cecef20cd0cb8ab",
+    "path": "agents/skills/vitest-testing",
+    "licenseFiles": [
+      "LICENSE"
+    ]
+  },
+  "functional-cohesion-components": {
+    "repository": "https://github.com/yutakobayashidev/skills",
+    "revision": "e29d115339db439f40d38ed6be75664628f7ff3a",
+    "path": "skills/functional-cohesion-components",
+    "licenseFiles": []
+  },
+  "missing-command-nix": {
+    "repository": "https://github.com/Kyure-A/skills",
+    "revision": "1c36b61ea15195e08e10169c0252e95d5b2d67df",
+    "path": "missing-command-nix",
+    "licenseFiles": [
+      "LICENSE"
+    ]
+  },
+  "typescript-design": {
+    "repository": "https://github.com/fa0311/typescript-design-skill",
+    "revision": "82d9b500a63e18c122e6d5d249bcbc388364104b",
+    "path": "skills/typescript-design",
+    "licenseFiles": []
+  }
+}

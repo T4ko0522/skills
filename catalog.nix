@@ -57,6 +57,10 @@
       from = "local";
       path = "missing-command-nix";
     };
+    nix-ci = {
+      from = "local";
+      path = "nix-ci";
+    };
     nix-setup = {
       from = "local";
       path = "nix-setup";

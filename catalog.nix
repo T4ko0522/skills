@@ -59,6 +59,10 @@
       from = "local";
       path = "git-commit";
     };
+    git-workspace = {
+      from = "local";
+      path = "git-workspace";
+    };
     github-thread-fetcher = {
       from = "local";
       path = "github-thread-fetcher";

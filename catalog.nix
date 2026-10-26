@@ -1,5 +1,6 @@
 {
   cloudflare-skills,
+  cloudflare-security-audit-skill,
   yutakobayashidev-skills,
 }: {
   sources = {
@@ -8,6 +9,11 @@
       path = cloudflare-skills;
       subdir = "skills";
       idPrefix = "cloudflare";
+    };
+    cloudflare-security-audit = {
+      path = cloudflare-security-audit-skill;
+      subdir = "skills";
+      idPrefix = "cloudflare-security-audit";
     };
     yutakobayashidev = {
       path = yutakobayashidev-skills;
@@ -20,6 +26,10 @@
     adr = {
       from = "yutakobayashidev";
       path = "adr";
+    };
+    cf-cli = {
+      from = "cloudflare";
+      path = "cf-cli";
     };
     conventional-changelog = {
       from = "local";
@@ -72,6 +82,10 @@
     pr-summarizer = {
       from = "local";
       path = "pr-summarizer";
+    };
+    security-audit = {
+      from = "cloudflare-security-audit";
+      path = "security-audit";
     };
     tdd = {
       from = "local";

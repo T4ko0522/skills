@@ -8,7 +8,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     cloudflare-skills = {
-      url = "github:cloudflare/skills/b052c32bab7dd493513260228a36c88294f343f1";
+      url = "github:cloudflare/skills/86505e44f87d801aa1864a3c4109e9a8ae5c409f";
+      flake = false;
+    };
+    cloudflare-security-audit-skill = {
+      url = "github:cloudflare/security-audit-skill/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8";
       flake = false;
     };
     yutakobayashidev-skills = {
@@ -21,11 +25,12 @@
     nixpkgs,
     agent-skills,
     cloudflare-skills,
+    cloudflare-security-audit-skill,
     yutakobayashidev-skills,
     ...
   }: let
     catalog = import ./catalog.nix {
-      inherit cloudflare-skills yutakobayashidev-skills;
+      inherit cloudflare-skills cloudflare-security-audit-skill yutakobayashidev-skills;
     };
     agentLib = agent-skills.lib.agent-skills;
     selection = agentLib.selectSkills {

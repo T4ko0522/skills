@@ -1,6 +1,9 @@
 {
   cloudflare-skills,
   cloudflare-security-audit-skill,
+  hyperframes,
+  mattpocock-skills,
+  yomiyasu,
   yutakobayashidev-skills,
 }: {
   sources = {
@@ -14,6 +17,21 @@
       path = cloudflare-security-audit-skill;
       subdir = "skills";
       idPrefix = "cloudflare-security-audit";
+    };
+    hyperframes = {
+      path = hyperframes;
+      subdir = "skills";
+      idPrefix = "hyperframes";
+    };
+    mattpocock = {
+      path = mattpocock-skills;
+      subdir = "skills/engineering";
+      idPrefix = "mattpocock";
+    };
+    yomiyasu = {
+      path = yomiyasu;
+      subdir = "skills";
+      idPrefix = "yomiyasu";
     };
     yutakobayashidev = {
       path = yutakobayashidev-skills;
@@ -30,6 +48,10 @@
     cf-cli = {
       from = "cloudflare";
       path = "cf-cli";
+    };
+    codebase-design = {
+      from = "mattpocock";
+      path = "codebase-design";
     };
     conventional-changelog = {
       from = "local";
@@ -66,6 +88,22 @@
     github-thread-fetcher = {
       from = "local";
       path = "github-thread-fetcher";
+    };
+    hyperframes = {
+      from = "hyperframes";
+      path = "hyperframes";
+    };
+    hyperframes-cli = {
+      from = "hyperframes";
+      path = "hyperframes-cli";
+    };
+    hyperframes-registry = {
+      from = "hyperframes";
+      path = "hyperframes-registry";
+    };
+    media-use = {
+      from = "hyperframes";
+      path = "media-use";
     };
     missing-command-nix = {
       from = "local";
@@ -114,6 +152,10 @@
     wrangler = {
       from = "cloudflare";
       path = "wrangler";
+    };
+    yomiyasu = {
+      from = "yomiyasu";
+      path = "yomiyasu";
     };
   };
 }

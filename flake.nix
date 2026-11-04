@@ -19,6 +19,10 @@
       url = "github:heygen-com/hyperframes/6feb4bec7aa046a8956efd8a718db55423e2e2ca";
       flake = false;
     };
+    kotek-dotfiles = {
+      url = "github:kotek-7/dotfiles/946e7a8d2fb6aa387f4bc91ab702c40585f092b4";
+      flake = false;
+    };
     mattpocock-skills = {
       url = "github:mattpocock/skills/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d";
       flake = false;
@@ -39,13 +43,14 @@
     cloudflare-skills,
     cloudflare-security-audit-skill,
     hyperframes,
+    kotek-dotfiles,
     mattpocock-skills,
     yomiyasu,
     yutakobayashidev-skills,
     ...
   }: let
     catalog = import ./catalog.nix {
-      inherit cloudflare-skills cloudflare-security-audit-skill hyperframes mattpocock-skills yomiyasu yutakobayashidev-skills;
+      inherit cloudflare-skills cloudflare-security-audit-skill hyperframes kotek-dotfiles mattpocock-skills yomiyasu yutakobayashidev-skills;
     };
     agentLib = agent-skills.lib.agent-skills;
     selection = agentLib.selectSkills {

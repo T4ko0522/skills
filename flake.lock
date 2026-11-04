@@ -116,6 +116,23 @@
         "type": "github"
       }
     },
+    "kotek-dotfiles": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793529661,
+        "narHash": "sha256-UP2YYOp9Ou7ml0nyu5I0gT3LOSI4cg5jyaPVodW9Wpw=",
+        "owner": "kotek-7",
+        "repo": "dotfiles",
+        "rev": "946e7a8d2fb6aa387f4bc91ab702c40585f092b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kotek-7",
+        "repo": "dotfiles",
+        "rev": "946e7a8d2fb6aa387f4bc91ab702c40585f092b4",
+        "type": "github"
+      }
+    },
     "mattpocock-skills": {
       "flake": false,
       "locked": {
@@ -155,6 +172,7 @@
         "cloudflare-security-audit-skill": "cloudflare-security-audit-skill",
         "cloudflare-skills": "cloudflare-skills",
         "hyperframes": "hyperframes",
+        "kotek-dotfiles": "kotek-dotfiles",
         "mattpocock-skills": "mattpocock-skills",
         "nixpkgs": "nixpkgs",
         "yomiyasu": "yomiyasu",

@@ -2,6 +2,7 @@
   cloudflare-skills,
   cloudflare-security-audit-skill,
   hyperframes,
+  kotek-dotfiles,
   mattpocock-skills,
   yomiyasu,
   yutakobayashidev-skills,
@@ -22,6 +23,11 @@
       path = hyperframes;
       subdir = "skills";
       idPrefix = "hyperframes";
+    };
+    kotek = {
+      path = kotek-dotfiles;
+      subdir = "dot_claude/skills";
+      idPrefix = "kotek";
     };
     mattpocock = {
       path = mattpocock-skills;
@@ -124,6 +130,10 @@
     pr-summarizer = {
       from = "local";
       path = "pr-summarizer";
+    };
+    sanitize-artifacts = {
+      from = "kotek";
+      path = "sanitize-artifacts";
     };
     security-audit = {
       from = "cloudflare-security-audit";
